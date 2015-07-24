@@ -2,7 +2,7 @@ module.exports = {
     production: {
         db: {host:'127.0.0.1', port: 6379},
         app: {
-          name: 'Onschool'
+          name: 'Speakup' //server name
         },
         port: 8000,
         media: true,
@@ -20,6 +20,6 @@ module.exports = {
 		],
         baseUrl: "/vsr/",
         optimized: true,
-        googleTag: ""
+        googleTag: "" //google tag for tracking
    }
 }
